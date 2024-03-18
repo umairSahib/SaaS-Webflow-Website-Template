@@ -1,0 +1,321 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+}
+nav{
+    background: url('images/background.png') ;
+    background-size: cover;
+    
+}
+.navbar{
+    margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.logo{
+    margin-top: 12px;
+}
+
+.nav-ul ul{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    margin-top: 20px;
+    background: #8879eb;
+    padding: 20px;
+    border-radius: 32px;
+   
+}
+.nav-ul li{
+  list-style: none; 
+}
+.nav-ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+    
+}
+.nav-btn{
+   margin-top: 12px;
+}
+.btn-1{
+    font-family: "Nunito", sans-serif;
+    background-color: #FFFFFF;
+    color: #242331;
+    padding: 10px 27px;
+    border-radius: 32px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.header-container{
+    display: flex;
+    gap: 50px;
+   padding-top: 142px;
+   margin-left: 120px;
+    margin-right: 120px;
+}
+.header-text h1{
+    font-size: 55px;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+    max-width: 450px;
+    line-height: 110%;
+}
+.header-text h3{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    color: #797979;
+    max-width: 950px;
+
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.header-btn{
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.start{
+    font-family: "Nunito", sans-serif;
+    background-color: #5236FF;
+    color:  #FFFFFF;
+    padding: 10px 27px;
+    border-radius: 32px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold; 
+}
+.video{
+    font-family: "Nunito", sans-serif;
+    background-color: #FFFFFF;
+    color:  #242331;
+    padding: 10px 27px;
+    border-radius: 32px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold; 
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.video img{
+    max-width: 40px;
+    height: auto;
+}
+.content-container{
+    margin-top: 150px;
+    margin-left: 120px;
+    margin-right: 120px;
+    
+}
+.feature-btn {
+    display: flex;
+    justify-content: center;
+}
+.feature-btn button{
+    font-family: "Nunito", sans-serif;
+    background-color: #EFECFF;
+    color:  #5236FF;
+    padding: 14px 27px;
+    border-radius: 32px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold; 
+}
+.content-highlight{
+    display: flex;
+    justify-content: center;
+    margin-top: 31px;
+    text-align: center;
+}
+.content-highlight h1{
+    font-family: "Nunito", sans-serif;
+    font-size: 50px;
+    font-weight: 800; 
+    max-width: 750px;
+    line-height: 100%;
+}
+.cards-container{
+    margin-top: 46px;
+    margin-left: 120px;
+    margin-right: 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 47px;
+}
+.cards-container h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    margin-top: 43px;
+}
+.cards-container h3{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    color: #797979;
+    margin-top: 23px;
+    display: flex;
+    text-align: center;
+}
+.card-1 h4{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    color: #242331;
+    margin-top: 45px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+.card-2 h4{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    color: #5236FF;
+    margin-top: 45px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+.card-3 h4{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    color: #242331;
+    margin-top: 45px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+.cost-container{
+    margin-left: 120px;
+    margin-top: 156px;
+    display: flex;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+.cost-text{
+    margin-top: 76px;
+}
+.cost-text h1{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+    line-height: 100%;
+}
+.cost-text h4{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    line-height: 100%;
+    color: #797979;
+    max-width: 650px;
+    padding-top: 26px;
+}
+.inside{
+    display: flex;
+    gap: 30px;
+    margin-top: 42px;
+}
+.inside h3{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+}
+.inside-text h4{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    line-height: 100%;
+    color: #797979;
+    max-width: 400px;
+    padding-top: 10px;
+}
+.work-container{
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 220px;
+    
+}
+.work-btn {
+    display: flex;
+    justify-content: center;
+}
+.work-btn button{
+    font-family: "Nunito", sans-serif;
+    background-color: #EFECFF;
+    color:  #5236FF;
+    padding: 14px 27px;
+    border-radius: 32px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold; 
+}
+.work-content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 31px;
+}
+.work-content h2{
+    font-family: "Nunito", sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    max-width: 500px;
+    line-height: 100%;
+}
+.content-buttons{
+    display: flex;
+    margin-top: 49px;
+    gap: 29px;
+    justify-content: center;
+}
+.account{
+    background-color: #5236FF;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 23px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+}
+.code{
+    background-color: #F9F9F9;
+    color: black;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 23px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+}
+.track{
+    background-color: #F9F9F9;
+    color: black;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 23px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+}
