@@ -319,3 +319,44 @@ nav{
     font-weight: bold;
     font-family: "Nunito", sans-serif;
 }
+.account-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 79px;
+    gap: 50px;
+}
+.accout-img{
+    display: flex;
+    gap: 30px;
+}
+.accout-img h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    max-width: 300px;
+    line-height: 100%;
+}
+.account-text-2{
+    margin-top: 22px;
+}
+.account-text-2 h3{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    max-width: 700px;
+    line-height: 100%;
+    color: #797979;
+}
+.start-button{
+    margin-top: 40px;
+}
+.get-started{
+    background-color: #242331;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 32px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+}
