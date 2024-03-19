@@ -414,3 +414,203 @@ nav{
     justify-content: center;
     padding-top: 25px;
 }
+.price-container{
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 200px;
+    display: flex;
+    gap: 16px;
+}
+.card-button{
+    margin-top: 100px;
+}
+.card-button button{
+    font-family: "Nunito", sans-serif;
+    background-color: #EFECFF;
+    color:  #5236FF;
+    padding: 14px 27px;
+    border-radius: 32px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.price-card-1 h1{
+    font-family: "Nunito", sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    max-width: 400px;
+    line-height: 100%;
+    margin-top: 30px;
+}
+.price-card-1 h3{
+    font-family: "Nunito", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    max-width: 450px;
+    color: #797979;
+    margin-top: 26px;
+}
+.price-card-1 h4{
+    font-family: "Nunito", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.price-source{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+
+}
+.price-card-2{
+    background-color: #F9F9F9;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+}
+.basic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+.basic-text{
+    font-family: "Nunito", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+.save-button button{
+    font-family: "Nunito", sans-serif;
+    background-color: #FFFFFF;
+    color:  #797979;
+    padding: 10px 20px;
+    border-radius: 32px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.line{
+    margin-top: 30px;
+    border: 1px solid #EFECFF;
+    margin-bottom: 30px;
+}
+.price-card-2 h2{
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+.percent-button button{
+    font-family: "Nunito", sans-serif;
+    background-color: #FFEECC;
+    color:  #C68A15;
+    padding: 10px 20px;
+    border-radius: 32px;
+    border: none;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.price-card-2 h3{
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #797979;
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.price-card-2 b{
+    color: #242331;
+}
+.get-start{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.get-start button{
+    font-family: "Nunito", sans-serif;
+    background-color: #D3D3D3;
+    color:  #242331;
+    padding: 15px 20px;
+    border-radius: 32px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.price-card-3{
+    background-color: #F9F9F9;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+}
+.Advanced{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+.Advanced-text{
+    font-family: "Nunito", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+.Advanced-button button{
+    font-family: "Nunito", sans-serif;
+    background-color: #EFECFF;
+    color:  #5236FF;
+    padding: 10px 20px;
+    border-radius: 32px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.line{
+    margin-top: 30px;
+    border: 1px solid #EFECFF;
+    margin-bottom: 30px;
+}
+.price-card-3 h2{
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+.percent-button button{
+    font-family: "Nunito", sans-serif;
+    background-color: #FFEECC;
+    color:  #C68A15;
+    padding: 10px 20px;
+    border-radius: 32px;
+    border: none;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.price-card-3 h3{
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #797979;
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.price-card-3 b{
+    color: #5236FF;
+}
+.g0t-start{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.g0t-start button{
+    font-family: "Nunito", sans-serif;
+    background-color: #242331;
+    color:  #FFFFFF;
+    padding: 15px 20px;
+    border-radius: 32px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+}
