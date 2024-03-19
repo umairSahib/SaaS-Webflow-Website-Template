@@ -697,4 +697,52 @@ nav{
     font-weight: bold;
     color: #242331;
     font-family: "Nunito", sans-serif;
+    margin-bottom: 35px;
+}
+.blog-post{
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+.blog-1{
+    background-color: #F9F9F9;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+}
+.blog-2{
+    background-color: #F9F9F9;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+}
+.blog-post h5{
+    font-size: 18px;
+    font-weight: 400;
+    color: #797979;
+    font-family: "Nunito", sans-serif;
+    margin-top: 20px;
+}
+.blog-post h1{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+    margin-top: 20px;
+    line-height: 100%;
+}
+.blog-post h2{
+    font-size: 22px;
+    font-weight: 400;
+    color: #797979;
+    font-family: "Nunito", sans-serif;
+    margin-top: 20px;
+    line-height: 100%;
+}
+.read{
+    font-size: 18px;
+    font-weight: 400;
+    color: #5236FF;
+    font-family: "Nunito", sans-serif;
+    margin-top: 20px;
+    text-decoration: underline;
 }
