@@ -1388,7 +1388,7 @@ nav {
     font-size: 30px;
     font-weight: 800;
     font-family: "Nunito", sans-serif;
-    margin-left: 10px;
+    margin-left: 20px;
     line-height: 100%;
   }
   .banner-text h2 {
@@ -1396,7 +1396,8 @@ nav {
     font-size: 22px;
     font-weight: 400;
     font-family: "Nunito", sans-serif;
-    margin-left: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
     line-height: 100%;
     margin-top: 26px;
   }
@@ -1903,6 +1904,44 @@ nav {
     border: none;
     font-size: 18px;
     font-weight: bold;
+  }
+  .banner-container {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 100px;
+    background-color: #5236ff;
+    padding-top: 40px;
+    border: none;
+    border-radius: 30px;
+    display: block;
+  }
+  .banner-text {
+    padding-top: 100px;
+  }
+  .banner-text h1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+    margin-left: 20px;
+    line-height: 100%;
+  }
+  .banner-text h2 {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 100%;
+    margin-top: 26px;
+  }
+  .emaiaddress {
+    display: flex;
+  }
+ 
+  .banner-image{
+    margin-top: 40px;
   }
 }
 @media (min-width: 768px) {
@@ -2443,6 +2482,41 @@ nav {
     font-size: 18px;
     font-weight: bold;
   }
+  .banner-container {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 100px;
+    background-color: #5236ff;
+    padding-top: 40px;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+  }
+  .banner-text {
+    padding-top: 100px;
+  }
+  .banner-text h1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+    margin-left: 20px;
+    line-height: 100%;
+  }
+  .banner-text h2 {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 100%;
+    margin-top: 26px;
+  }
+  .emaiaddress {
+    display: flex;
+    margin-bottom: 30px;
+  }
 }
 @media (min-width: 992px) {
   nav {
@@ -2751,6 +2825,62 @@ nav {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
 
+  }
+  .banner-container {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 200px;
+    background-color: #5236ff;
+    padding-top: 40px;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+  }
+  .banner-text {
+    padding-top: 100px;
+  }
+  .banner-text h1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+    margin-left: 30px;
+    line-height: 100%;
+  }
+  .banner-text h2 {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    margin-left: 30px;
+    line-height: 100%;
+    margin-top: 26px;
+  }
+  .emaiaddress {
+    margin-top: 32px;
+    margin-left: 30px;
+    display: flex;
+    gap: 20px;
+  }
+  .emaiaddress input {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 32px;
+    background-color: #8879eb;
+  }
+  .emaiaddress input,
+  ::placeholder {
+    color: white;
+  }
+  .submit {
+    background-color: white;
+    color: #5236ff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 32px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
   }
 }
 @media (min-width: 1200px) {
@@ -3154,6 +3284,62 @@ nav {
     justify-content: center;
     padding-top: 25px;
     padding-bottom: 165px;
+  }
+  .banner-container {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 200px;
+    background-color: #5236ff;
+    padding-top: 40px;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+  }
+  .banner-text {
+    padding-top: 100px;
+  }
+  .banner-text h1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+    margin-left: 30px;
+    line-height: 100%;
+  }
+  .banner-text h2 {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    margin-left: 30px;
+    line-height: 100%;
+    margin-top: 26px;
+  }
+  .emaiaddress {
+    margin-top: 32px;
+    margin-left: 30px;
+    display: flex;
+    gap: 20px;
+  }
+  .emaiaddress input {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 32px;
+    background-color: #8879eb;
+  }
+  .emaiaddress input,
+  ::placeholder {
+    color: white;
+  }
+  .submit {
+    background-color: white;
+    color: #5236ff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 32px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
   }
   
 }
