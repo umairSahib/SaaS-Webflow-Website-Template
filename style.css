@@ -1182,7 +1182,16 @@ nav {
   .card-button {
     margin-top: 100px;
   }
-
+  .price-card-1 {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .last-button{
+    display: block;
+  }
+  .vector{
+    margin-top: 10px;
+  }
   .price-card-1 h1 {
     font-family: "Nunito", sans-serif;
     font-size: 30px;
@@ -1190,6 +1199,7 @@ nav {
     max-width: 250px;
     line-height: 100%;
     margin-top: 30px;
+    
   }
   .price-card-1 h3 {
     font-family: "Nunito", sans-serif;
@@ -1206,9 +1216,12 @@ nav {
     margin-top: 30px;
   }
   .price-source {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 30px;
+    display: none;
+    
+  }
+  .card-button{
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .price-card-2 {
     background-color: #f9f9f9;
