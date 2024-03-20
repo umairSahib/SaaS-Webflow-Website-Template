@@ -3678,5 +3678,8 @@ nav {
   .coulmn-4{
     display: grid;
   }
+  .last-button{
+    display: flex;
+  }
   
 }
