@@ -1370,6 +1370,44 @@ nav {
     font-size: 18px;
     font-weight: bold;
   }
+  .banner-container {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 100px;
+    background-color: #5236ff;
+    padding-top: 40px;
+    border: none;
+    border-radius: 30px;
+    display: block;
+  }
+  .banner-text {
+    padding-top: 100px;
+  }
+  .banner-text h1 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+    margin-left: 10px;
+    line-height: 100%;
+  }
+  .banner-text h2 {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    margin-left: 30px;
+    line-height: 100%;
+    margin-top: 26px;
+  }
+  .emaiaddress {
+    display: none;
+  }
+ 
+  .banner-image{
+    margin-top: 40px;
+  }
+  
 }
 @media (min-width: 576px) {
   nav {
