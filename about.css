@@ -21,7 +21,7 @@
     margin-top: 12px;
   }
   
-  .nav-ul ul {
+  .nav-ul-l ul {
     display: flex;
     align-items: center;
     gap: 45px;
@@ -30,10 +30,10 @@
     padding: 20px;
     border-radius: 32px;
   }
-  .nav-ul li {
+  .nav-ul-l li {
     list-style: none;
   }
-  .nav-ul a {
+  .nav-ul-l a {
     text-decoration: none;
     color: #242331;
     font-size: 18px;
