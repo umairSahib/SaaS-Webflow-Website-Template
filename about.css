@@ -146,3 +146,58 @@
 .mission-2{
   margin-top: 20px;
 }
+.values-container{
+  margin-top: 200px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.value-button{
+  display: flex;
+  justify-content: center;
+}
+.value-button button{
+  background-color: #efecff;
+  color: #5236ff;
+  padding: 15px 27px;
+  border: none;
+  border-radius: 32px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+}
+.values-text{
+  display: flex;
+  justify-content: center;
+}
+.values-text h1{
+  font-size: 50px;
+  font-weight: 800;
+  font-family: "Nunito", sans-serif;
+  max-width: 700px;
+  text-align: center;
+  line-height: 100%;
+}
+.teamwork-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  margin-top: 50px;
+}
+.innovation{
+  display: flex;
+  gap: 30px;
+}
+.Team-work{
+  display: flex;
+  gap: 30px;
+}
+.Excellence{
+  display: flex;
+  gap: 30px;
+  margin-top: 51px;
+}
+.Responsibility{
+  display: flex;
+  gap: 30px;
+  margin-top: 51px;
+}
