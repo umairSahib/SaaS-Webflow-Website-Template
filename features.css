@@ -823,6 +823,31 @@
         line-height: 100%;
         margin-top: 30px;
       }
+      .cards-container {
+        margin-top: 46px;
+        margin-left: 80px;
+        margin-right: 80px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+      }
+      .cards-container h2 {
+        font-size: 35px;
+        font-weight: bold;
+        font-family: "Nunito", sans-serif;
+        margin-top: 43px;
+        display: flex;
+        justify-content: center;
+      }
+      .cards-container h3 {
+        font-size: 20px;
+        font-weight: 400;
+        font-family: "Nunito", sans-serif;
+        color: #797979;
+        margin-top: 23px;
+        display: flex;
+        text-align: center;
+      }
   }
   @media (min-width: 1200px){
     .navbar {
@@ -913,5 +938,59 @@
         text-align: center;
         line-height: 100%;
         margin-top: 30px;
+      }
+      .cards-container {
+        margin-top: 46px;
+        margin-left: 120px;
+        margin-right: 120px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        gap: 47px;
+      }
+      .cards-container h2 {
+        font-size: 30px;
+        font-weight: bold;
+        font-family: "Nunito", sans-serif;
+        margin-top: 43px;
+      }
+      .cards-container h3 {
+        font-size: 22px;
+        font-weight: 400;
+        font-family: "Nunito", sans-serif;
+        color: #797979;
+        margin-top: 23px;
+        display: flex;
+        text-align: center;
+      }
+      .card-1 h4 {
+        font-size: 18px;
+        font-weight: bold;
+        font-family: "Nunito", sans-serif;
+        color: #242331;
+        margin-top: 45px;
+        text-decoration: underline;
+        display: flex;
+        justify-content: center;
+      }
+      .card-2 h4 {
+        font-size: 18px;
+        font-weight: bold;
+        font-family: "Nunito", sans-serif;
+        color: #5236ff;
+        margin-top: 45px;
+        text-decoration: underline;
+        display: flex;
+        justify-content: center;
+      }
+      .card-3 h4 {
+        font-size: 18px;
+        font-weight: bold;
+        font-family: "Nunito", sans-serif;
+        color: #242331;
+        margin-top: 45px;
+        text-decoration: underline;
+        display: flex;
+        justify-content: center;
       }
   }
