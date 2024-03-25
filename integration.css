@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    box-sizing: border-box;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  .logo {
+    margin-top: 12px;
+  }
+  
+  .nav-ul-l ul {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    margin-top: 20px;
+    background: #F9F9F9;
+    padding: 20px;
+    border-radius: 32px;
+  }
+  .nav-ul-l li {
+    list-style: none;
+  }
+  .nav-ul-l a {
+    text-decoration: none;
+    color: #242331;
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+  }
+  .nav-btn {
+    margin-top: 12px;
+  }
+  .btn-1 {
+    font-family: "Nunito", sans-serif;
+    background-color: #5236FF;
+    color: #FFFF;
+    padding: 10px 27px;
+    border-radius: 32px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .header-container{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+  }
+  .header-text h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+  }
+  .header-text h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    color: #797979;
+    max-width: 650px;
+  }
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  .social-container{
+ 
+    display: flex;
+    gap: 50px;
+  }
+  .fb{
+    display: flex;
+  }
+  .twitter{
+    display: flex;
+  }
+  .Youtube{
+    display: flex;
+  }
+  .Pinterest{
+    display: flex;
+  }
+  .Twitch{
+    display: flex;
+  }
+  .Snapchat{
+    display: flex;
+  }
+
+
+  
+  @media (min-width:320px){
+    .container{
+     max-width: 320px;
+     width: 100%;
+     margin: 0 auto;
+     padding: 0;
+    }
+  }
+  @media (min-width:576px){
+    .container{
+     max-width: 576px;
+     width: 100%;
+     margin: 0 auto;
+     padding: 0;
+    }
+  }
+  @media (min-width:768px){
+    .container{
+     max-width: 768px;
+     width: 100%;
+     margin: 0 auto;
+     padding: 0;
+    }
+  }
+  @media (min-width:992px){
+    .container{
+     max-width: 992px;
+     width: 100%;
+     margin: 0 auto;
+     padding: 0;
+    }
+  }
+  @media (min-width:1200px){
+    .container{
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 0;
+    }
+  }

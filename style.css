@@ -10,8 +10,6 @@ nav {
   background-size: cover;
 }
 .navbar {
-  margin-left: 120px;
-  margin-right: 120px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -59,9 +57,7 @@ nav {
 .header-container {
   display: flex;
   gap: 50px;
-  padding-top: 142px;
-  margin-left: 120px;
-  margin-right: 120px;
+  margin-top: 0px;
 }
 .header-text h1 {
   font-size: 55px;
@@ -117,8 +113,7 @@ nav {
 }
 .content-container {
   margin-top: 150px;
-  margin-left: 120px;
-  margin-right: 120px;
+ 
 }
 .feature-btn {
   display: flex;
@@ -149,8 +144,7 @@ nav {
 }
 .cards-container {
   margin-top: 46px;
-  margin-left: 120px;
-  margin-right: 120px;
+
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
@@ -246,8 +240,6 @@ nav {
   padding-top: 10px;
 }
 .work-container {
-  margin-left: 220px;
-  margin-right: 50px;
   margin-top: 220px;
 }
 .work-btn {
@@ -355,8 +347,7 @@ nav {
   font-family: "Nunito", sans-serif;
 }
 .blue-container {
-  margin-left: 120px;
-  margin-right: 120px;
+
   margin-top: 216px;
 }
 .Testimonial {
@@ -410,8 +401,6 @@ nav {
   padding-bottom: 165px;
 }
 .price-container {
-  margin-left: 120px;
-  margin-right: 120px;
   margin-top: 200px;
   display: flex;
   gap: 16px;
@@ -609,8 +598,7 @@ nav {
   font-weight: bold;
 }
 .banner-container {
-  margin-left: 100px;
-  margin-right: 100px;
+
   margin-top: 200px;
   background-color: #5236ff;
   padding-top: 40px;
@@ -666,8 +654,7 @@ nav {
 }
 
 .blog-container {
-  margin-left: 120px;
-  margin-right: 120px;
+ 
   margin-top: 220px;
 }
 .blog-button {
@@ -741,8 +728,6 @@ nav {
   text-decoration: underline;
 }
 .footer-container {
-  margin-left: 120px;
-  margin-right: 120px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
@@ -881,8 +866,7 @@ nav {
     background-size: cover;
   }
   .navbar {
-    margin-left: 20px;
-    margin-right: 20px;
+  
     display: flex;
   }
   .navbar-container {
@@ -904,8 +888,7 @@ nav {
   .header-container {
     display: block;
     padding-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+   
   }
   .header-text h1 {
     font-size: 25px;
@@ -958,8 +941,7 @@ nav {
   }
   .content-container {
     margin-top: 150px;
-    margin-left: 120px;
-    margin-right: 120px;
+   
   }
   .feature-btn {
     display: flex;
@@ -989,8 +971,7 @@ nav {
   }
   .cards-container {
     margin-top: 46px;
-    margin-left: 20px;
-    margin-right: 20px;
+   
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -1057,8 +1038,7 @@ nav {
     padding-top: 10px;
   }
   .work-container {
-    margin-left: 20px;
-    margin-right: 20px;
+   
     margin-top: 50px;
   }
   .content-buttons {
@@ -1118,8 +1098,7 @@ nav {
     color: #797979;
   }
   .blue-container {
-    margin-left: 20px;
-    margin-right: 20px;
+  
     margin-top: 100px;
   }
   .Testimonial {
@@ -1172,8 +1151,7 @@ nav {
     padding-bottom: 165px;
   }
   .price-container {
-    margin-left: 20px;
-    margin-right: 20px;
+ 
     margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
@@ -1384,8 +1362,7 @@ nav {
     font-weight: bold;
   }
   .banner-container {
-    margin-left: 0px;
-    margin-right: 0px;
+  
     margin-top: 100px;
     background-color: #5236ff;
     padding-top: 40px;
@@ -1422,8 +1399,7 @@ nav {
     margin-top: 40px;
   }
   .blog-container {
-    margin-left: 20px;
-    margin-right: 20px;
+   
     margin-top: 120px;
   }
   .blog-button {
@@ -1464,8 +1440,7 @@ nav {
     line-height: 100%;
   }
   .footer-container {
-    margin-left: 20px;
-    margin-right: 20px;
+   
     display: flex;
     flex-wrap: wrap;
     margin-top: 200px;
@@ -1478,8 +1453,7 @@ nav {
     background-size: cover;
   }
   .navbar {
-    margin-left: 20px;
-    margin-right: 20px;
+  
     display: flex;
   }
   .navbar-container {
@@ -1501,8 +1475,7 @@ nav {
   .header-container {
     display: block;
     padding-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+   
   }
   .header-text h1 {
     font-size: 25px;
@@ -1556,8 +1529,7 @@ nav {
   }
   .content-container {
     margin-top: 150px;
-    margin-left: 120px;
-    margin-right: 120px;
+  
   }
   .feature-btn {
     display: flex;
@@ -1587,8 +1559,7 @@ nav {
   }
   .cards-container {
     margin-top: 46px;
-    margin-left: 20px;
-    margin-right: 20px;
+  
     display: flex;
     flex-wrap: wrap;
   }
@@ -1610,8 +1581,7 @@ nav {
     text-align: center;
   }
   .cost-container {
-    margin-left: 20px;
-    margin-right: 0px;
+  
     margin-top: 50px;
     display: block;
   }
@@ -1654,8 +1624,7 @@ nav {
     padding-top: 10px;
   }
   .work-container {
-    margin-left: 40px;
-    margin-right: 40px;
+    
     margin-top: 50px;
   }
   .content-buttons {
@@ -1715,8 +1684,7 @@ nav {
     color: #797979;
   }
   .blue-container {
-    margin-left: 50px;
-    margin-right: 50px;
+   
     margin-top: 100px;
   }
   .Testimonial {
@@ -1769,8 +1737,7 @@ nav {
     padding-bottom: 165px;
   }
   .price-container {
-    margin-left: 50px;
-    margin-right: 50px;
+   
     margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
@@ -2006,8 +1973,7 @@ nav {
     margin-top: 40px;
   }
   .blog-container {
-    margin-left: 50px;
-    margin-right: 50px;
+   
     margin-top: 120px;
   }
   .blog-button {
@@ -2046,8 +2012,7 @@ nav {
     line-height: 100%;
   }
   .footer-container {
-    margin-left: 20px;
-    margin-right: 20px;
+   
     display: grid;
    grid-template-columns: repeat(2, 1fr);
     margin-top: 100px;
@@ -2062,8 +2027,7 @@ nav {
     background-size: cover;
   }
   .navbar {
-    margin-left: 20px;
-    margin-right: 20px;
+
     display: flex;
   }
   .navbar-container {
@@ -2085,8 +2049,7 @@ nav {
   .header-container {
     display: flex;
     padding-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+ 
   }
   .header-text h1 {
     font-size: 25px;
@@ -2140,8 +2103,7 @@ nav {
   }
   .content-container {
     margin-top: 150px;
-    margin-left: 120px;
-    margin-right: 120px;
+  
   }
   .feature-btn {
     display: flex;
@@ -2171,8 +2133,7 @@ nav {
   }
   .cards-container {
     margin-top: 46px;
-    margin-left: 20px;
-    margin-right: 20px;
+ 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
@@ -2239,8 +2200,7 @@ nav {
     padding-top: 10px;
   }
   .work-container {
-    margin-left: 50px;
-    margin-right: 50px;
+    
     margin-top: 100px;
   }
   .work-btn {
@@ -2341,8 +2301,7 @@ nav {
     display: flex;
   }
   .blue-container {
-    margin-left: 20px;
-    margin-right: 20px;
+   
     margin-top: 100px;
   }
   .Testimonial {
@@ -2395,8 +2354,7 @@ nav {
     padding-bottom: 165px;
   }
   .price-container {
-    margin-left: 60px;
-    margin-right: 60px;
+
     margin-top: 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -2595,8 +2553,7 @@ nav {
     font-weight: bold;
   }
   .banner-container {
-    margin-left: 60px;
-    margin-right: 60px;
+   
     margin-top: 100px;
     background-color: #5236ff;
     padding-top: 40px;
@@ -2630,8 +2587,7 @@ nav {
     margin-bottom: 30px;
   }
   .blog-container {
-    margin-left: 100px;
-    margin-right: 100px;
+
     margin-top: 120px;
   
   }
@@ -2690,8 +2646,7 @@ nav {
     line-height: 100%;
   }
   .footer-container {
-    margin-left: 80px;
-    margin-right: 80px;
+   
     display: grid;
    grid-template-columns: repeat(2, 1fr);
     margin-top: 100px;
@@ -2706,8 +2661,7 @@ nav {
     background-size: cover;
   }
   .navbar {
-    margin-left: 50px;
-    margin-right: 50px;
+  
     display: flex;
   }
   .navbar-container {
@@ -2729,8 +2683,7 @@ nav {
   .header-container {
     display: flex;
     padding-top: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
+   
   }
   .header-text h1 {
     font-size: 35px;
@@ -2779,8 +2732,7 @@ nav {
   }
   .content-container {
     margin-top: 150px;
-    margin-left: 120px;
-    margin-right: 120px;
+   
   }
   .feature-btn {
     display: flex;
@@ -2809,8 +2761,7 @@ nav {
   }
   .cards-container {
     margin-top: 46px;
-    margin-left: 50px;
-    margin-right: 50px;
+  
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
@@ -2873,8 +2824,7 @@ nav {
     padding-top: 10px;
   }
   .work-container {
-    margin-left: 50px;
-    margin-right: 50px;
+  
     margin-top: 100px;
   }
   .work-btn {
@@ -2946,8 +2896,7 @@ nav {
     display: flex;
   }
   .blue-container {
-    margin-left: 20px;
-    margin-right: 20px;
+   
     margin-top: 100px;
   }
   .Testimonial {
@@ -3000,8 +2949,7 @@ nav {
     padding-bottom: 165px;
   }
   .price-container {
-    margin-left: 80px;
-    margin-right: 80px;
+ 
     margin-top: 100px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -3009,8 +2957,7 @@ nav {
 
   }
   .banner-container {
-    margin-left: 100px;
-    margin-right: 100px;
+  
     margin-top: 200px;
     background-color: #5236ff;
     padding-top: 40px;
@@ -3065,8 +3012,7 @@ nav {
     font-family: "Nunito", sans-serif;
   }
   .blog-container {
-    margin-left: 100px;
-    margin-right: 100px;
+  
     margin-top: 120px;
   
   }
@@ -3125,8 +3071,6 @@ nav {
     line-height: 100%;
   }
   .footer-container {
-    margin-left: 80px;
-    margin-right: 80px;
     display: grid;
    grid-template-columns: repeat(3, 1fr);
     margin-top: 100px;
@@ -3141,8 +3085,6 @@ nav {
     background-size: cover;
   }
   .navbar {
-    margin-left: 120px;
-    margin-right: 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -3190,9 +3132,8 @@ nav {
   .header-container {
     display: flex;
     gap: 50px;
-    padding-top: 142px;
-    margin-left: 120px;
-    margin-right: 120px;
+    padding-top: 0px;
+  
   }
   .header-text h1 {
     font-size: 55px;
@@ -3244,8 +3185,7 @@ nav {
   }
   .content-container {
     margin-top: 150px;
-    margin-left: 120px;
-    margin-right: 120px;
+ 
   }
   .feature-btn {
     display: flex;
@@ -3276,8 +3216,7 @@ nav {
   }
   .cards-container {
     margin-top: 46px;
-    margin-left: 120px;
-    margin-right: 120px;
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
@@ -3374,8 +3313,7 @@ nav {
     padding-top: 10px;
   }
   .work-container {
-    margin-left: 220px;
-    margin-right: 50px;
+   
     margin-top: 220px;
   }
   .work-btn {
@@ -3483,8 +3421,7 @@ nav {
     font-family: "Nunito", sans-serif;
   }
   .blue-container {
-    margin-left: 120px;
-    margin-right: 120px;
+ 
     margin-top: 216px;
   }
   .Testimonial {
@@ -3538,8 +3475,7 @@ nav {
     padding-bottom: 165px;
   }
   .banner-container {
-    margin-left: 100px;
-    margin-right: 100px;
+  
     margin-top: 200px;
     background-color: #5236ff;
     padding-top: 40px;
@@ -3594,8 +3530,7 @@ nav {
     font-family: "Nunito", sans-serif;
   }
   .blog-container {
-    margin-left: 120px;
-    margin-right: 120px;
+   
     margin-top: 220px;
   }
   .blog-button {
@@ -3669,8 +3604,7 @@ nav {
     text-decoration: underline;
   }
   .footer-container {
-    margin-left: 120px;
-    margin-right: 120px;
+   
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 200px;
@@ -3682,4 +3616,43 @@ nav {
     display: flex;
   }
   
+}
+@media (min-width:320px){
+  .container{
+   max-width: 320px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0;
+  }
+}
+@media (min-width:576px){
+  .container{
+   max-width: 576px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0;
+  }
+}
+@media (min-width:768px){
+  .container{
+   max-width: 768px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0;
+  }
+}
+@media (min-width:992px){
+  .container{
+   max-width: 992px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0;
+  }
+}
+@media (min-width:1200px){
+  .container{
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0;
+  }
 }
