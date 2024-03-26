@@ -381,8 +381,6 @@
   border: none;
 }
 .footer-container {
-  margin-left: 120px;
-  margin-right: 120px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
@@ -688,8 +686,6 @@
     font-family: "Nunito", sans-serif;
   }
   .footer-container {
-    margin-left: 20px;
-    margin-right: 20px;
     display: flex;
     flex-wrap: wrap;
     margin-top: 100px;
@@ -857,8 +853,6 @@
     font-family: "Nunito", sans-serif;
   }
   .footer-container {
-    margin-left: 40px;
-    margin-right: 40px;
     display: flex;
     flex-wrap: wrap;
     margin-top: 100px;
@@ -1048,8 +1042,6 @@
     font-family: "Nunito", sans-serif;
   }
   .footer-container {
-    margin-left: 60px;
-    margin-right: 60px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 100px;
@@ -1236,8 +1228,6 @@
     font-family: "Nunito", sans-serif;
   }
   .footer-container {
-    margin-left: 80px;
-    margin-right: 80px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 100px;
@@ -1429,8 +1419,6 @@
     margin-top: 10px;
   }
   .footer-container {
-    margin-left: 120px;
-    margin-right: 120px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;

@@ -107,8 +107,6 @@ body {
 }
 .cards-container {
   margin-top: 46px;
-  margin-left: 120px;
-  margin-right: 120px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
@@ -249,8 +247,7 @@ body {
   justify-content: center;
 }
 .banner-container {
-  margin-left: 100px;
-  margin-right: 100px;
+ 
   margin-top: 200px;
   background-color: #5236ff;
   padding-top: 40px;
@@ -513,8 +510,6 @@ body {
   }
   .cards-container {
     margin-top: 46px;
-    margin-left: 20px;
-    margin-right: 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -573,8 +568,6 @@ body {
     grid-template-rows: auto;
   }
   .banner-container {
-    margin-left: 0px;
-    margin-right: 0px;
     margin-top: 100px;
     background-color: #5236ff;
     padding-top: 40px;
@@ -691,8 +684,6 @@ body {
   }
   .cards-container {
     margin-top: 46px;
-    margin-left: 20px;
-    margin-right: 20px;
     display: flex;
     flex-wrap: wrap;
   }
@@ -750,8 +741,7 @@ body {
     grid-template-rows: auto;
   }
   .banner-container {
-    margin-left: 0px;
-    margin-right: 0px;
+ 
     margin-top: 100px;
     background-color: #5236ff;
     padding-top: 40px;
@@ -867,8 +857,6 @@ body {
   }
   .cards-container {
     margin-top: 46px;
-    margin-left: 20px;
-    margin-right: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
@@ -928,8 +916,6 @@ body {
     grid-template-rows: auto;
   }
   .banner-container {
-    margin-left: 60px;
-    margin-right: 60px;
     margin-top: 100px;
     background-color: #5236ff;
     padding-top: 40px;
@@ -1047,8 +1033,7 @@ body {
   }
   .cards-container {
     margin-top: 46px;
-    margin-left: 80px;
-    margin-right: 80px;
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
@@ -1108,8 +1093,6 @@ body {
     grid-template-rows: auto;
   }
   .banner-container {
-    margin-left: 80px;
-    margin-right: 80px;
     margin-top: 200px;
     background-color: #5236ff;
     padding-top: 40px;
@@ -1260,8 +1243,6 @@ body {
   }
   .cards-container {
     margin-top: 46px;
-    margin-left: 120px;
-    margin-right: 120px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
@@ -1350,8 +1331,6 @@ body {
     grid-template-rows: auto;
   }
   .banner-container {
-    margin-left: 100px;
-    margin-right: 100px;
     margin-top: 200px;
     background-color: #5236ff;
     padding-top: 40px;
