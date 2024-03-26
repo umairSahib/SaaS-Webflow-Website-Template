@@ -1337,16 +1337,22 @@ body {
     border: none;
     border-radius: 30px;
     display: flex;
+    gap: 33px;
+
   }
   .banner-text {
     padding-top: 100px;
+    margin-left: 61px;
+  }
+  .banner-image{
+    margin-right: 61px;
   }
   .banner-text h1 {
     color: #ffffff;
     font-size: 40px;
     font-weight: 800;
     font-family: "Nunito", sans-serif;
-    margin-left: 30px;
+    max-width: 450px;
     line-height: 100%;
   }
   .banner-text h2 {
@@ -1354,7 +1360,7 @@ body {
     font-size: 22px;
     font-weight: 400;
     font-family: "Nunito", sans-serif;
-    margin-left: 30px;
+    max-width: 550px;
     line-height: 100%;
     margin-top: 26px;
   }

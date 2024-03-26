@@ -188,6 +188,12 @@ header{
   display: flex;
   justify-content: center;
 }
+.card-2{
+  background: #F9F9F9;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+}
 .card-2 h4 {
   font-size: 18px;
   font-weight: bold;
@@ -209,8 +215,7 @@ header{
   justify-content: center;
 }
 .cost-container {
-  margin-left: 120px;
-  margin-top: 156px;
+  margin-top: 200px;
   display: flex;
   gap: 50px;
   margin-bottom: 100px;
@@ -253,7 +258,7 @@ header{
   padding-top: 10px;
 }
 .work-container {
-  margin-top: 220px;
+  margin-top: 200px;
 }
 .work-btn {
   display: flex;
@@ -342,7 +347,7 @@ header{
   font-size: 22px;
   font-weight: 400;
   font-family: "Nunito", sans-serif;
-  max-width: 700px;
+  max-width: 576px;
   line-height: 100%;
   color: #797979;
 }
@@ -361,7 +366,7 @@ header{
 }
 .blue-container {
 
-  margin-top: 216px;
+  margin-top: 236px;
 }
 .Testimonial {
   display: flex;
@@ -611,13 +616,13 @@ header{
   font-weight: bold;
 }
 .banner-container {
-
   margin-top: 200px;
   background-color: #5236ff;
   padding-top: 40px;
   border: none;
   border-radius: 30px;
   display: flex;
+  gap:33px;
 }
 .banner-text {
   padding-top: 100px;
@@ -1006,7 +1011,7 @@ header{
     text-align: center;
   }
   .cost-container {
-    margin-left: 20px;
+ 
     margin-right: 0px;
     margin-top: 50px;
     display: block;
@@ -2162,7 +2167,7 @@ header{
     text-align: center;
   }
   .cost-container {
-    margin-left: 60px;
+
     margin-right: 0px;
     margin-top: 50px;
     display: block;
@@ -2783,7 +2788,7 @@ header{
     margin-top: 23px;
   }
   .cost-container {
-    margin-left: 100px;
+   
     margin-right: 0px;
     margin-top: 50px;
     display: flex;
@@ -2953,11 +2958,16 @@ header{
   }
   .price-container {
  
-    margin-top: 100px;
+    margin-top: 200px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
 
+  }
+  .price-source {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
   }
   .banner-container {
   
@@ -3286,7 +3296,7 @@ header{
   }
 
   .cost-container {
-    margin-left: 120px;
+ 
     margin-top: 156px;
     display: flex;
     gap: 50px;
@@ -3420,7 +3430,7 @@ header{
     font-size: 22px;
     font-weight: 400;
     font-family: "Nunito", sans-serif;
-    max-width: 700px;
+    max-width: 576px;
     line-height: 100%;
     color: #797979;
   }
@@ -3439,7 +3449,7 @@ header{
   }
   .blue-container {
  
-    margin-top: 216px;
+    margin-top: 236px;
   }
   .Testimonial {
     display: flex;
@@ -3491,24 +3501,42 @@ header{
     padding-top: 25px;
     padding-bottom: 165px;
   }
+  .price-container {
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+
+  }
+  .price-source {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    margin-top: 30px;
+  }
   .banner-container {
-  
     margin-top: 200px;
     background-color: #5236ff;
     padding-top: 40px;
     border: none;
     border-radius: 30px;
     display: flex;
+    gap: 33px;
+
   }
   .banner-text {
     padding-top: 100px;
+    margin-left: 61px;
+  }
+  .banner-image{
+    margin-right: 61px;
   }
   .banner-text h1 {
     color: #ffffff;
     font-size: 40px;
     font-weight: 800;
     font-family: "Nunito", sans-serif;
-    margin-left: 30px;
+    max-width: 450px;
     line-height: 100%;
   }
   .banner-text h2 {
@@ -3516,7 +3544,7 @@ header{
     font-size: 22px;
     font-weight: 400;
     font-family: "Nunito", sans-serif;
-    margin-left: 30px;
+    max-width: 550px;
     line-height: 100%;
     margin-top: 26px;
   }
@@ -3535,6 +3563,8 @@ header{
   .emaiaddress input,
   ::placeholder {
     color: white;
+    font-size: 18px;
+    font-weight: 500;
   }
   .submit {
     background-color: white;
@@ -3572,6 +3602,7 @@ header{
     color: #242331;
     font-family: "Nunito", sans-serif;
     margin-bottom: 35px;
+    margin-top: 31px;
   }
   .blog-post {
     display: grid;
@@ -3671,5 +3702,12 @@ header{
    max-width: 1200px;
    margin: 0 auto;
    padding: 0;
+  }
+}
+@media (min-width: 1200px){
+  .container-cost{
+    max-width: 1200px;
+    margin-right: 0px;
+    margin-left: 150px;
   }
 }
