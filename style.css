@@ -5,10 +5,19 @@
 body {
   box-sizing: border-box;
 }
-nav {
-  background: url("images/background.png");
-  background-size: cover;
+header{
+  position: relative;
 }
+  header:after {
+    content: ' '; 
+    display: block; 
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    right: 4px; 
+    z-index: -1; 
+    background: url('images/background.png') no-repeat right 50%;
+  }
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -58,6 +67,7 @@ nav {
   display: flex;
   gap: 50px;
   margin-top: 0px;
+ 
 }
 .header-text h1 {
   font-size: 55px;
@@ -862,8 +872,7 @@ nav {
 
 @media (min-width: 320px) {
   nav {
-    background: url("images/background.png");
-    background-size: cover;
+  
   }
   .navbar {
   
@@ -1448,10 +1457,7 @@ nav {
 
 }
 @media (min-width: 576px) {
-  nav {
-    background: url("images/background.png");
-    background-size: cover;
-  }
+
   .navbar {
   
     display: flex;
@@ -2022,10 +2028,7 @@ nav {
   }
 }
 @media (min-width: 768px) {
-  nav {
-    background: url("images/background.png");
-    background-size: cover;
-  }
+
   .navbar {
 
     display: flex;
@@ -2656,10 +2659,7 @@ nav {
   }
 }
 @media (min-width: 992px) {
-  nav {
-    background: url("images/background.png");
-    background-size: cover;
-  }
+
   .navbar {
   
     display: flex;
@@ -3080,11 +3080,20 @@ nav {
   }
 }
 @media (min-width: 1200px) {
-  nav {
-    background: url("images/background.png");
-    background-size: cover;
+  header{
+    position: relative;
   }
-  .navbar {
+    header:after {
+      content: ''; 
+      display: block; 
+      position: absolute; 
+      top: 0; 
+      bottom: 0; 
+      right: 4px; 
+      z-index: -1; 
+      background: url('images/background.png') no-repeat right 50%;
+    }
+  .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -3097,6 +3106,7 @@ nav {
   .logo {
     margin-top: 12px;
   }
+
 
   .nav-ul ul {
     display: flex;
@@ -3129,10 +3139,11 @@ nav {
     font-size: 18px;
     font-weight: bold;
   }
+ 
   .header-container {
     display: flex;
     gap: 50px;
-    padding-top: 0px;
+    padding-top: 142px;
   
   }
   .header-text h1 {
@@ -3148,11 +3159,11 @@ nav {
     font-weight: 400;
     font-family: "Nunito", sans-serif;
     color: #797979;
-    max-width: 950px;
+    max-width: 850px;
   }
   .header-btn {
     display: flex;
-    gap: 40px;
+    gap: 12px;
     margin-top: 30px;
     margin-bottom: 30px;
   }
@@ -3168,7 +3179,7 @@ nav {
   }
   .video {
     font-family: "Nunito", sans-serif;
-    background-color: #ffffff;
+    background-color: #F4F4F4;
     color: #242331;
     padding: 10px 27px;
     border-radius: 32px;
