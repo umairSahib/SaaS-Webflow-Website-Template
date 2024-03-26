@@ -7,16 +7,19 @@ body {
 }
 header{
   position: relative;
+  overflow-x: hidden;
 }
   header:after {
-    content: ' '; 
+    content: ''; 
     display: block; 
     position: absolute; 
     top: 0; 
-    bottom: 0; 
-    right: 4px; 
+    bottom: 6rem; 
+    left: 20rem;
     z-index: -1; 
     background: url('images/background.png') no-repeat right 50%;
+    width: 100%;
+
   }
 .navbar {
   display: flex;
@@ -3082,16 +3085,19 @@ header{
 @media (min-width: 1200px) {
   header{
     position: relative;
+    overflow-x: hidden;
   }
     header:after {
       content: ''; 
       display: block; 
       position: absolute; 
       top: 0; 
-      bottom: 0; 
-      right: 4px; 
+      bottom: 6rem; 
+      left: 20rem;
       z-index: -1; 
       background: url('images/background.png') no-repeat right 50%;
+      width: 100%;
+  
     }
   .nav {
     display: flex;
