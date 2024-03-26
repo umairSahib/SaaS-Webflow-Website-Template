@@ -60,7 +60,7 @@ header{
   font-family: "Nunito", sans-serif;
   background-color: #ffffff;
   color: #242331;
-  padding: 10px 27px;
+  padding: 25px 54px;
   border-radius: 32px;
   border: none;
   font-size: 18px;
@@ -3095,6 +3095,7 @@ header{
 }
 @media (min-width: 1200px) {
   header{
+    padding-top: 60px;
     position: relative;
     overflow-x: hidden;
   }
@@ -3102,7 +3103,6 @@ header{
       content: ''; 
       display: block; 
       position: absolute; 
-      top: 0; 
       bottom: 6rem; 
       left: 20rem;
       z-index: -1; 
@@ -3131,8 +3131,8 @@ header{
     gap: 45px;
     margin-top: 20px;
     background: #8879eb;
-    padding: 20px;
-    border-radius: 32px;
+    padding: 24px 52px;
+    border-radius: 52px;
   }
   .nav-ul li {
     list-style: none;
@@ -3150,8 +3150,8 @@ header{
     font-family: "Nunito", sans-serif;
     background-color: #ffffff;
     color: #242331;
-    padding: 10px 27px;
-    border-radius: 32px;
+    padding: 25px 54px;
+    border-radius: 52px;
     border: none;
     font-size: 18px;
     font-weight: bold;
@@ -3188,8 +3188,8 @@ header{
     font-family: "Nunito", sans-serif;
     background-color: #5236ff;
     color: #ffffff;
-    padding: 10px 27px;
-    border-radius: 32px;
+    padding: 25px 51px;
+    border-radius: 52px;
     border: none;
     font-size: 18px;
     font-weight: bold;
@@ -3198,14 +3198,14 @@ header{
     font-family: "Nunito", sans-serif;
     background-color: #F4F4F4;
     color: #242331;
-    padding: 10px 27px;
-    border-radius: 32px;
+    padding: 25px 51px;
+    border-radius: 52px;
     border: none;
     font-size: 18px;
     font-weight: bold;
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
   }
   .video img {
     max-width: 40px;
@@ -3223,8 +3223,8 @@ header{
     font-family: "Nunito", sans-serif;
     background-color: #efecff;
     color: #5236ff;
-    padding: 14px 27px;
-    border-radius: 32px;
+    padding: 25px 46px;
+    border-radius: 52px;
     border: none;
     font-size: 18px;
     font-weight: bold;
@@ -3378,9 +3378,10 @@ header{
     justify-content: center;
   }
   .account {
+    flex: 1;
     background-color: #5236ff;
     color: #ffffff;
-    padding: 15px 30px;
+    padding: 25px 30px;
     border: none;
     border-radius: 23px;
     font-size: 20px;
@@ -3388,9 +3389,10 @@ header{
     font-family: "Nunito", sans-serif;
   }
   .code {
+    flex: 1;
     background-color: #f9f9f9;
     color: black;
-    padding: 15px 30px;
+    padding: 25px 30px;
     border: none;
     border-radius: 23px;
     font-size: 20px;
@@ -3398,9 +3400,10 @@ header{
     font-family: "Nunito", sans-serif;
   }
   .track {
+    flex: 1;
     background-color: #f9f9f9;
     color: black;
-    padding: 15px 30px;
+    padding: 25px 30px;
     border: none;
     border-radius: 23px;
     font-size: 20px;
