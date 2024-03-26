@@ -21,7 +21,7 @@ header{
     width: 100%;
 
   }
-.navbar {
+.nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -879,10 +879,11 @@ header{
 }
 
 @media (min-width: 320px) {
-  nav {
-  
+  header{
+    background: none;
   }
-  .navbar {
+    
+  .nav {
   
     display: flex;
   }
@@ -1466,7 +1467,7 @@ header{
 }
 @media (min-width: 576px) {
 
-  .navbar {
+  .nav {
   
     display: flex;
   }
@@ -2037,7 +2038,7 @@ header{
 }
 @media (min-width: 768px) {
 
-  .navbar {
+  .nav {
 
     display: flex;
   }
@@ -2668,7 +2669,7 @@ header{
 }
 @media (min-width: 992px) {
 
-  .navbar {
+  .nav {
   
     display: flex;
   }
@@ -3704,6 +3705,37 @@ header{
    padding: 0;
   }
 }
+
+@media (min-width: 320px){
+  .container-cost{
+    max-width: 320px;
+    margin-right: 0px;
+    margin-left: 20px;
+  }
+}
+@media (min-width: 576px){
+  .container-cost{
+    max-width: 576px;
+    margin-right: 0px;
+    margin-left: 20px;
+  }
+}
+@media (min-width: 768px){
+  .container-cost{
+    max-width: 768px;
+    margin-right: 0px;
+    margin-left: 40px;
+  }
+}
+@media (min-width: 992px){
+  .container-cost{
+    max-width: 992px;
+    margin-right: 0px;
+    margin-left: 60px;
+  }
+}
+
+
 @media (min-width: 1200px){
   .container-cost{
     max-width: 1200px;
