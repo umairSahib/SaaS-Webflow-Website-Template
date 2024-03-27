@@ -850,6 +850,7 @@ header{
   display: flex;
   margin-top: 30px;
   gap: 10px;
+  align-items: center;
 }
 .last-button .apple {
   font-family: "Nunito", sans-serif;
@@ -3666,6 +3667,7 @@ header{
   }
   .last-button{
     display: flex;
+    align-items: center;
   }
   
 }
