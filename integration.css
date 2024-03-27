@@ -37,6 +37,8 @@
     font-family: "Nunito", sans-serif;
   }
   .nav-btn {
+    display: flex;
+    /* align-items: end; */
     margin-top: 12px;
   }
   .integration {
