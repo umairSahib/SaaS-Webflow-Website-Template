@@ -9,14 +9,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 59px;
   }
   .navbar-container {
     display: flex;
     align-items: center;
     gap: 40px;
-  }
-  .logo {
-    margin-top: 12px;
+   
   }
   
   .nav-ul-l ul {
@@ -25,7 +24,7 @@
     gap: 45px;
     margin-top: 20px;
     background: #F9F9F9;
-    padding: 20px;
+    padding: 24px 54px;
     border-radius: 32px;
   }
   .nav-ul-l li {
@@ -40,17 +39,17 @@
   .nav-btn {
     margin-top: 12px;
   }
-  .btn-1 {
+  .integration {
     font-family: "Nunito", sans-serif;
     background-color: #5236FF;
     color: #FFFF;
-    padding: 10px 27px;
-    border-radius: 32px;
+    padding: 25px 54px;
+    border-radius: 39px;
     border: none;
     font-size: 18px;
     font-weight: bold;
   }
-  .header-container{
+ .header-container{
     margin-top: 120px;
     display: flex;
     justify-content: center;
@@ -77,30 +76,300 @@
     height: auto;
   }
   .social-container{
- 
+    margin-top: 115px;
     display: flex;
-    gap: 50px;
+    gap: 40px;
   }
   .fb{
     display: flex;
+    gap: 26px;
   }
   .twitter{
     display: flex;
+    gap: 26px;
   }
   .Youtube{
     display: flex;
+    gap: 26px;
   }
   .Pinterest{
     display: flex;
+    gap: 26px;
   }
   .Twitch{
     display: flex;
+    gap: 26px;
   }
   .Snapchat{
     display: flex;
+    gap: 26px;
   }
 
+.facebook{
+  background-color: #F9F9F9;
+  padding: 39px 40px;
+  border: none;
+  border-radius: 30px;
+}
+.pin{
+  background-color: #F9F9F9;
+  padding: 39px 40px;
+  border: none;
+  border-radius: 30px;
+  margin-top: 40px;
+}
+.x{
+  background-color: #F9F9F9;
+  padding: 39px 40px;
+  border: none;
+  border-radius: 30px;
+}
+.t{
+  background-color: #F9F9F9;
+  padding: 39px 40px;
+  border: none;
+  border-radius: 30px;
+  margin-top: 40px;
+}
+.youtub{
+  background-color: #F9F9F9;
+  padding: 39px 40px;
+  border: none;
+  border-radius: 30px;
+}
+.snap{
+  background-color: #F9F9F9;
+  padding: 39px 40px;
+  border: none;
+  border-radius: 30px;
+  margin-top: 40px;
+}
+.social-container h1{
+  color: #242331;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  
+}
+.social-container h3{
+  color: #797979;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;  
+}
+.social-container h2{
+  color: #797979;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  line-height: 100%; 
+  margin-top: 27px;
+}
+.social-container h4{
+  color: #797979;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  margin-top: 31px;
+  text-decoration: underline;
+}
+.line{
+  border: 1px solid #F9F9F9;
+  margin-top: 115px;
+}
+.banner-container {
+  margin-top: 200px;
+  background-color: #5236ff;
+  padding-top: 40px;
+  border: none;
+  border-radius: 30px;
+  display: flex;
+  gap: 33px;
 
+}
+.banner-text {
+  padding-top: 100px;
+  margin-left: 61px;
+}
+.banner-image{
+  margin-right: 61px;
+}
+.banner-text h1 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "Nunito", sans-serif;
+  max-width: 450px;
+  line-height: 100%;
+}
+.banner-text h2 {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  max-width: 550px;
+  line-height: 100%;
+  margin-top: 26px;
+}
+.emaiaddress {
+  margin-top: 32px;
+  display: flex;
+  gap: 20px;
+}
+.emaiaddress input {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 32px;
+  background-color: #8879eb;
+}
+.emaiaddress input,
+::placeholder {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+.submit {
+  background-color: white;
+  color: #5236ff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 32px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 10px;
+  margin-top: 200px;
+}
+.coulmn-1 h4 {
+  margin-top: 26px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #797979;
+  font-family: "Nunito", sans-serif;
+}
+
+.mail-logo {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+.mail-logo h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #797979;
+  font-family: "Nunito", sans-serif;
+}
+.phone-logo {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+.phone-logo h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #797979;
+  font-family: "Nunito", sans-serif;
+}
+.coulmn-2 {
+  display: flex;
+  gap: 40px;
+}
+.coulmn-2 h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #242331;
+  font-family: "Nunito", sans-serif;
+}
+.coulmn-2 h5 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #797979;
+  font-family: "Nunito", sans-serif;
+  margin-top: 20px;
+}
+.coulmn-3 h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #242331;
+  font-family: "Nunito", sans-serif;
+}
+.coulmn-3 h5 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #797979;
+  font-family: "Nunito", sans-serif;
+  margin-top: 20px;
+}
+
+.coulmn-4 {
+  background-color: #f9f9f9;
+  margin-top: 50px;
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+}
+.coulmn-4 button {
+  font-family: "Nunito", sans-serif;
+  background-color: #efecff;
+  color: #5236ff;
+  padding: 14px 27px;
+  border-radius: 32px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+.coulmn-4 h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #242331;
+  font-family: "Nunito", sans-serif;
+  line-height: 100%;
+  margin-top: 30px;
+}
+.coulmn-4 h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #797979;
+  font-family: "Nunito", sans-serif;
+  line-height: 100%;
+  margin-top: 20px;
+}
+.last-button {
+  display: flex;
+  margin-top: 30px;
+  gap: 10px;
+}
+.last-button .apple {
+  font-family: "Nunito", sans-serif;
+  background-color: #242331;
+  color: #ffffff;
+  padding: 14px 20px;
+  border-radius: 32px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.last-button .vector {
+  font-family: "Nunito", sans-serif;
+  background-color: #d3d3d3;
+  color: #ffffff;
+  padding: 14px 27px;
+  border-radius: 32px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
   
   @media (min-width:320px){
     .container{
