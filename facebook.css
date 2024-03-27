@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    box-sizing: border-box;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 59px;
+  }
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+  
+  .nav-ul-l ul {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    margin-top: 20px;
+    background: #F9F9F9;
+    padding: 20px;
+    border-radius: 32px;
+  }
+  .nav-ul-l li {
+    list-style: none;
+  }
+  .nav-ul-l a {
+    text-decoration: none;
+    color: #242331;
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+  }
+  .fb-btn {
+    font-family: "Nunito", sans-serif;
+    background-color: #5236FF;
+    color: #FFFF;
+    padding: 25px 54px;
+    border-radius: 39px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .fb-img{
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    margin-top: 157px;
+  }
+  .fb-img h1{
+    font-family: "Nunito", sans-serif;
+    font-size: 73px;
+    font-weight: 800;
+  }
+  .fb-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .fb-text h3{
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 16px;
+    color: #797979;
+    max-width: 600px;
+  }
+  .about-facebook{
+    background-color: #F9F9F9;
+    padding: 80px 70px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 37px;
+  }
+  .about-facebook h1{
+    font-family: "Nunito", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+  }
+  .fb-h3{
+    display: flex;
+    justify-content: center;
+  }
+  .about-facebook h3{
+    font-family: "Nunito", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #797979;
+    margin-top: 41px;
+    max-width: 750px;
+    margin-bottom: 52px;
+  }
+.ab-img{
+    display: flex;
+    justify-content: center;
+}
+.fb-h4{
+    display: flex;
+    justify-content: center;
+}
+.fb-h4 h4{
+    font-family: "Nunito", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #797979;
+    margin-top: 41px;
+    max-width: 750px;
+    margin-bottom: 52px;
+  }
+  .fb-h2{
+    display: flex;
+    justify-content: center;
+  }
+  .fb-h2 h2{
+    font-family: "Nunito", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 48px;
+  }
+  .fb-h5 {
+    display: flex;
+    justify-content: center;
+  }
+  .fb-h5 h5{
+    font-family: "Nunito", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    max-width: 750px;
+    margin-top: 48px;
+    color: #797979;
+  }
+
+  @media (min-width:320px){
+    .container{
+     max-width: 320px;
+     width: 100%;
+     margin: 0 auto;
+     padding: 0;
+    }
+  }
+  @media (min-width:576px){
+    .container{
+     max-width: 576px;
+     width: 100%;
+     margin: 0 auto;
+     padding: 0;
+    }
+  }
+  @media (min-width:768px){
+    .container{
+     max-width: 768px;
+     width: 100%;
+     margin: 0 auto;
+     padding: 0;
+    }
+  }
+  @media (min-width:992px){
+    .container{
+     max-width: 992px;
+     width: 100%;
+     margin: 0 auto;
+     padding: 0;
+    }
+  }
+  @media (min-width:1200px){
+    .container{
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 0;
+    }
+  }
