@@ -214,11 +214,399 @@
     margin-top: 27px;
 }
 
+.sa-12 li{
+    font-family: "Nunito", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #797979;
+    margin-top: 27px;
+}
+.hero{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.hero-text h2{
+    font-family: "Nunito", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #797979;
+    max-width: 600px;
+    background-color: #F9F9F9;
+    border: none;
+    border-radius: 20px;
+    padding: 117px;
+}
+.favourite{
+    margin-top: 70px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.favourite h1{
+    font-family: "Nunito", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+.favourite h2{
+    font-family: "Nunito", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #797979;
+    margin-top: 26px;
+}
+.line{
+    border: 1px solid #F9F9F9;
+    margin-top: 170px;
+    margin-bottom: 150px;
+}
+.latest{
+    display: flex;
+    justify-content: space-between;
+}
 
-
-
-
-
+.latest h1{
+    font-family: "Nunito", sans-serif;
+    font-size: 50px;
+    font-weight: 800; 
+}
+.l-btn{
+    background-color: #5236FF;
+    padding: 15px 41px;
+    border: none;
+    border-radius: 39px;
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.blog-container h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #242331;
+    font-family: "Nunito", sans-serif;
+    margin-bottom: 35px;
+  }
+  .blog-post {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+  }
+  .blog-1 {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+  }
+  .blog-2 {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+  }
+  .blog-post h5 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #797979;
+    font-family: "Nunito", sans-serif;
+    margin-top: 20px;
+  }
+  .blog-post h1 {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+    margin-top: 20px;
+    line-height: 100%;
+  }
+  .blog-post h2 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #797979;
+    font-family: "Nunito", sans-serif;
+    margin-top: 20px;
+    line-height: 100%;
+  }
+  .blog-container h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #242331;
+    font-family: "Nunito", sans-serif;
+    margin-bottom: 35px;
+  }
+  .blog-post {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+  }
+  .blog-1 {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+  }
+  .blog-2 {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+  }
+  .blog-post h5 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #797979;
+    font-family: "Nunito", sans-serif;
+    margin-top: 20px;
+  }
+  .blog-post h1 {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+    margin-top: 20px;
+    line-height: 100%;
+  }
+  .blog-post h2 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #797979;
+    font-family: "Nunito", sans-serif;
+    margin-top: 20px;
+    line-height: 100%;
+  }
+  .read {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    margin-top: 20px;
+    text-decoration: underline;
+  }
+  .banner-container {
+    margin-top: 200px;
+    background-color: #5236ff;
+    padding-top: 40px;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    gap: 33px;
+  
+  }
+  .banner-text {
+    padding-top: 100px;
+    margin-left: 61px;
+  }
+  .banner-image{
+    margin-right: 61px;
+  }
+  .banner-text h1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+    max-width: 450px;
+    line-height: 100%;
+  }
+  .banner-text h2 {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    max-width: 550px;
+    line-height: 100%;
+    margin-top: 26px;
+  }
+  .emaiaddress {
+    margin-top: 32px;
+    display: flex;
+    gap: 20px;
+  }
+  .emaiaddress input {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 32px;
+    background-color: #8879eb;
+  }
+  .emaiaddress input,
+  ::placeholder {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .submit {
+    background-color: white;
+    color: #5236ff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 32px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+  }
+  .line-5{
+    border: 1px solid #d3d3d3;
+    margin-top: 200px;
+    margin-bottom: 154px;
+  }
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+  }
+  .coulmn-1 h4 {
+    margin-top: 26px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #797979;
+    font-family: "Nunito", sans-serif;
+  }
+  
+  .mail-logo {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+  }
+  .mail-logo h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #797979;
+    font-family: "Nunito", sans-serif;
+  }
+  .phone-logo {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+  }
+  .phone-logo h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #797979;
+    font-family: "Nunito", sans-serif;
+  }
+  .coulmn-2 {
+    display: flex;
+    gap: 40px;
+  }
+  .coulmn-2 h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #242331;
+    font-family: "Nunito", sans-serif;
+  }
+  .coulmn-2 h5 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #797979;
+    font-family: "Nunito", sans-serif;
+    margin-top: 20px;
+  }
+  .coulmn-3 h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #242331;
+    font-family: "Nunito", sans-serif;
+  }
+  .coulmn-3 h5 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #797979;
+    font-family: "Nunito", sans-serif;
+    margin-top: 20px;
+  }
+  
+  .coulmn-4 {
+    background-color: #f9f9f9;
+    margin-top: 50px;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+  }
+  .coulmn-4 button {
+    font-family: "Nunito", sans-serif;
+    background-color: #efecff;
+    color: #5236ff;
+    padding: 14px 27px;
+    border-radius: 32px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .coulmn-4 h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #242331;
+    font-family: "Nunito", sans-serif;
+    line-height: 100%;
+    margin-top: 30px;
+  }
+  .coulmn-4 h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #797979;
+    font-family: "Nunito", sans-serif;
+    line-height: 100%;
+    margin-top: 20px;
+  }
+  .last-button {
+    display: flex;
+    margin-top: 30px;
+    gap: 10px;
+  }
+  .last-button .apple {
+    font-family: "Nunito", sans-serif;
+    background-color: #242331;
+    color: #ffffff;
+    padding: 14px 20px;
+    border-radius: 32px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .last-button .vector {
+    font-family: "Nunito", sans-serif;
+    background-color: #d3d3d3;
+    color: #ffffff;
+    padding: 14px 27px;
+    border-radius: 32px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .footer-container .line-1{
+    margin-top: 32px;
+    border: 1px solid #E3E3E3;
+  }
+  
+  .line-3{
+    margin-top: 51px;
+    border: 1px solid #E3E3E3;
+    margin-bottom: 35px;
+  }
+.copyright-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.copyright-text h2{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    color: #797979;
+}
+.copy-imgs{
+    display: flex;
+    gap: 25px;
+}
 
   @media (min-width:320px){
     .container{
