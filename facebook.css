@@ -79,18 +79,15 @@
     border: none;
     border-radius: 30px;
     margin-top: 37px;
+    margin-left: 100px;
+    margin-right: 100px;
   }
   .about-facebook h1{
     font-family: "Nunito", sans-serif;
     font-size: 50px;
     font-weight: bold;
-    display: flex;
-    justify-content: center;
   }
-  .fb-h3{
-    display: flex;
-    justify-content: center;
-  }
+ 
   .about-facebook h3{
     font-family: "Nunito", sans-serif;
     font-size: 22px;
@@ -104,10 +101,7 @@
     display: flex;
     justify-content: center;
 }
-.fb-h4{
-    display: flex;
-    justify-content: center;
-}
+
 .fb-h4 h4{
     font-family: "Nunito", sans-serif;
     font-size: 22px;
@@ -117,20 +111,14 @@
     max-width: 750px;
     margin-bottom: 52px;
   }
-  .fb-h2{
-    display: flex;
-    justify-content: center;
-  }
+
   .fb-h2 h2{
     font-family: "Nunito", sans-serif;
     font-size: 30px;
     font-weight: bold;
     margin-top: 48px;
   }
-  .fb-h5 {
-    display: flex;
-    justify-content: center;
-  }
+
   .fb-h5 h5{
     font-family: "Nunito", sans-serif;
     font-size: 22px;
@@ -142,7 +130,6 @@
   .fbt {
     display: flex;
     margin-top: 42px;
-    margin-left: 137px;
   }
   .fbt button{
     font-family: "Nunito", sans-serif;
@@ -290,7 +277,10 @@
     align-items: center;
     gap: 5px;
   }
-
+  .coulmn-3 .line-1{
+    margin-top: 32px;
+  }
+  
   @media (min-width:320px){
     .container{
      max-width: 320px;
